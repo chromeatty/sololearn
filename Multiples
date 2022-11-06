@@ -1,0 +1,11 @@
+
+def numbers(x, y):
+    res = 0
+    for num in range(1, limit):
+        if num % x == 0 or num % y == 0:
+            res += num
+    print(res)
+
+limit = int(input())
+
+numbers(3,5)
