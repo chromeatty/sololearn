@@ -1,0 +1,4 @@
+import re
+word = str(input())
+count = len(re.findall('[aeiouAEIOU]', word))
+print(count)
