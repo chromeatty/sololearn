@@ -1,0 +1,16 @@
+st = str(input())
+
+if (len(st) == len(set(st.lower()))) == True:
+    print('true')
+else:
+    print('false')
+'''
+count = 0
+for i in st:
+ count += st.count(i)
+ 
+if count == len(st):
+  print('true')
+else:
+  print('false')
+'''
