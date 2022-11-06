@@ -1,0 +1,16 @@
+li = int(input())
+x  = str(bin(li))
+
+count = 0
+for i in x:
+    if i == '1':
+        count += 1
+print(count)
+'''
+# second route
+count=0 
+for i in x: 
+    if "1" in str(i): 
+        count+=1 
+print(count) 
+'''
