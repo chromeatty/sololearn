@@ -1,0 +1,7 @@
+sent = input().split()
+latin = []
+
+for i in sent:
+#i[1:] start fron the second character, +i[0] adds 5he first character to the end +"ay" and adda ay to the end
+  latin.append(i[1:]+i[0]+"ay")
+print(" ".join(latin))
