@@ -1,0 +1,10 @@
+red = int(input())
+blue = int(input())
+green = int(input())
+
+def hexadd(x, y, z):
+    a = (hex(x))[2::]
+    b = (hex(y))[2::]
+    c = (hex(z))[2::]
+    return ("#" + a + b + c)
+print(hexadd(red, blue, green))
